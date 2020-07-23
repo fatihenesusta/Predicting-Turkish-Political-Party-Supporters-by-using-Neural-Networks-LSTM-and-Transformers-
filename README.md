@@ -3,22 +3,22 @@
 
 The aim of this project is to be able to analyze if a given text is supporter of the current ruling party or against the current ruling party in Turkey. (2020)
 
-#### Data Preparation Part
-###### Collecting Part
+### Data Preparation Part
+##### Collecting Part
 
 Since there is no such a labeled data set available for this kind of task, data had to be collected. I used BeautifulSoup from python to create a database in the first step.
 I accessed different news sources and started to store their column writes. I specifically selected political ones because they will focus on political issues. After i started labeling them by looking at each column writer. You can learn a lot about which political party a column writer support by reading their few of their writes. Since i already have a political and international relations background it was not a hard task for me. I labeled them by [0 or 1], 0 if they are supporting current ruling party and 1 if they are against it. In the end, i was able to create my database with 5000f instances of column writes. 
 
-###### Cleaning Part
+##### Cleaning Part
 
 1) Cleared data from html tags 
 2) Lowered all data
 
-#### Modeling Part
+### Modeling Part
 
 I used BERT to stem and tokenize my data.
 
-##### Long Short Term Memory Part
+#### Long Short Term Memory Part
 
 In this data base i had about 55000 unique tokens. So i set the maximum word number to be that number.
 
@@ -48,4 +48,4 @@ Accuracy score of testing is: 0.75
 F1 score is: 0.68
 
 
-# Transformers model will be added in near time
+#### Transformers model will be added in near time
