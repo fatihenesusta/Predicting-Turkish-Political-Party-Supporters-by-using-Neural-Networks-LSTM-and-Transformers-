@@ -47,5 +47,18 @@ For training part accuracy hit 0.91 and validation accuracy hit about 0.7422 thi
 Accuracy score of testing is: 0.75
 F1 score is: 0.68
 
+### Examples of label [0]
+#### If you go to bottom side of the text you will see with how much percentage it got classified.
+![alt text](https://i.imgur.com/ZPRZr44.jpg)
+![alt text](https://i.imgur.com/cUJ2UOf.png)
+![alt text](https://i.imgur.com/fqpsgzH.jpg)
+![alt text](https://i.imgur.com/MJumxkT.png)
+
+### Examples of label [1]
+#### If you go to bottom side of the text you will see with how much percentage it got classified.
+![alt text](https://i.imgur.com/hG8Bs4g.png)
+![alt text](https://i.imgur.com/ksXNsQF.png)
+![alt text](https://i.imgur.com/OiaZtVR.png)
+![alt text](https://i.imgur.com/V8zxot6.png)
 
 #### Transformers model will be added in near time
