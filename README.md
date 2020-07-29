@@ -1,7 +1,7 @@
 # Predicting-Turkish-Political-Party-Supporters-by-using-Neural-Networks-LSTM-and-Transformers-
 ## Aim of this project
 
-The aim of this project is to be able to analyze if a given text is supporter of the current ruling party or against the current ruling party in Turkey. (2020)
+The aim of this project is to be able to analyze if a given text is supporter of the current ruling party or against the current ruling party in Turkey. (2019-2020)
 
 ### Data Preparation Part
 ##### Collecting Part
