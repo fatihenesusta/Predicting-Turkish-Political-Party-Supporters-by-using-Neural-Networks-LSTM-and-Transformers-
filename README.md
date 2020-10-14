@@ -7,7 +7,7 @@ The aim of this project is to be able to analyze if a given text is supporter of
 ##### Collecting Part
 
 Since there is no such a labeled data set available for this kind of task, data had to be collected. I used BeautifulSoup from python to create a database in the first step.
-I accessed different news sources and started to store their column writes. I specifically selected political ones because they will focus on political issues. After i started labeling them by looking at each column writer. You can learn a lot about which political party a column writer support by reading their few of their writes. Since i already have a political and international relations background it was not a hard task for me. I labeled them by [0 or 1], 0 if they are supporting current ruling party and 1 if they are against it. In the end, i was able to create my database with 5000f instances of column writes. 
+I accessed different news sources and started to store their column writes. I specifically selected political ones because they will focus on political issues. After i started labeling them by looking at each column writer. You can learn a lot about which political party a column writer support by reading their few of their writes. Since i already have a political and international relations background it was not a hard task for me. I labeled them by [0 or 1], 0 if they are supporting current ruling party and 1 if they are against it. In the end, i was able to create my database with 5000 instances of column writes. 
 
 ##### Cleaning Part
 
@@ -40,7 +40,7 @@ Some notes: After 3 epoch my model started to overfit so i decided to stick with
 
 #### Training
 
-For training part accuracy hit 0.91 and validation accuracy hit about 0.7422 this number was the best i got after observering different types of parameters.
+For training part accuracy hit 0.91 and validation accuracy hit about 0.7422 please note that this number was the best i got after observering different types of parameters.
 
 #### Test
 
