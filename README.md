@@ -61,5 +61,5 @@ F1 score is: 0.68
 ![alt text](https://i.imgur.com/OiaZtVR.png)
 ![alt text](https://i.imgur.com/V8zxot6.png)
 
-#### Comparison of LSTM & Transformers
+## Comparison of LSTM & Transformers
 ![alt text](https://i.imgur.com/GrMgeg8.png)
